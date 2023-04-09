@@ -3,10 +3,10 @@
 }
 
 /* Used by default with NavLink */
-/* .active {
+ .active {
   color: lightyellow;
   text-decoration: none;
-} */
+}
 
 .activeLink {
   color: lightyellow;
@@ -39,4 +39,13 @@ button {
   border: 0;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.courseLink {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.courseLink:hover {
+  text-decoration: underline;
 }
